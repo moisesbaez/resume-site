@@ -1,0 +1,88 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+     margin: 0;
+     background-color: lightgrey;
+}
+
+.white-background {
+     background-color: white;
+}
+
+.content-area {
+     padding: 0 0 1rem;
+}
+
+.header {
+
+}
+
+.container {
+     width: 980px;
+     margin: 0 auto;
+}
+
+.person-name {
+     margin: 0;
+     padding: 1rem 0 1rem;
+}
+
+.person-info {
+     width: 69%;
+     display: inline-block;
+}
+
+.person-image {
+     padding: 0 0.5rem 0.5rem 0;
+     display: inline-block;
+     float: left;
+}
+
+.person-location {
+     display: inline;
+}
+
+.contact {
+     vertical-align: top;
+     width: 30%;
+     display: inline-block;
+     overflow: auto;
+}
+
+.contact-info {
+     list-style: none;
+     padding: 0;
+}
+
+.contact-item {
+     margin: 0 0 1rem;
+}
+
+.skills, .education {
+     vertical-align: top;
+     width: 49%;
+     display: inline-block;
+}
+
+.job-experience {
+     margin: 0 0 2rem;
+}
+
+.job-year {
+     float: right;
+     margin: 0;
+}
+
+.job-company {
+     margin: 0;
+}
+
+.job-title {
+     margin: 0;
+}
